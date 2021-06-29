@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   background-color: #fff;
+}
+ 
+/* Slider */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+
+  }
+ .carousel-indicators {
+            background-color: transparent;
+ }
+ 
+/* Header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 19%;
+    /* background-color: #e2e2e2; */
+    /* border: 1px solid #fff; */
+}
+header img {
+    width: 100%;
+    height: 100%;
+    
+ }
+
+nav{
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-end; */
+    /* padding: 0px 15%; */
+    /* border: 1px solid #e2e2e2; */
+   width: 100%;
+   height: 100%;
+}
+
+li, a, button{
+    /* font-family: 'Dela Gothic One', cursive ; */
+    font-weight: lighter;
+    /* font-size: 14px; */
+    text-decoration: none;
+}
+.nav_link{
+    list-style: none;
+    /* border:  1px solid #fff; */
+    text-align: center;
+    
+}
+.nav_link li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+.nav_link li a{
+    transition: all 0.2s ease 0s;
+    color: #222;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.nav_link li a:hover{
+    color: #FF4800;
+}
+
+.nav-item{
+    margin-left: 5px;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+}
+
+.nav-link {
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.form-inline{
+    margin-left: 50px;
+}
+
+.fa {
+    padding: 30px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+ .fa-search{
+    padding: 10px;
+    font-size: 25px;
+    /* width: 20px; */
+    text-align: center;
+    text-decoration: none;
+  }
+
+  
+  /* .navbar-nav input[type=text]  {
+    /* float: right; */
+    /* padding: 5px; */
+    /* margin-top: 8px; 
+    margin-right: 40px;
+    border: none;
+    font-size: 16px;
+    width: 200px;
+    border: 1px solid #fff;
+    background-color: #F5F5F5;
+  } */
+  /* .navbar-brand {
+    position: relative;
+    background: url(daraz.png);
+    /* background-repeat: no-repeat; 
+    /* background-size: 100% 100%; 
+    width: 170px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+.navbar-brand img{
+    width: 160px;
+    background-color: #F5F5F5;
+}
+
+.container h1{
+    font-size: 2.5rem;
+}
+.container{
+    background-color: #F5F5F5;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1500px) {
+    .nav_link li a {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .nav_link li a {
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .nav_link li a {
+        font-size: 0.7rem;
+    }
+    .navbar-brand img{
+        width: 140px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .nav_link li a {
+        font-size: 0.6rem;
+    }
+    .navbar-brand img{
+        width: 133px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .nav_link li a {
+        font-size: 0.6rem;
+    }
+    .navbar-brand img{
+        width: 125px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .nav_link li a {
+        font-size: 0.6rem;
+    }
+    .container h1{
+        font-size: 2.3rem;
+    }
+}
+@media screen and (max-width: 900px) {
+    .nav_link li a {
+        font-size: 0.5rem;
+    }
+    .container h1{
+        font-size: 2.3rem;
+    }
+}
+@media screen and (max-width: 800px) {
+    .nav_link li a {
+        font-size: 0.5rem;
+        /* font-weight: bold; */
+    }
+    .container h1{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .nav_link li a {
+        font-size: 0.5rem;
+        /* font-weight: bold; */
+    }
+    .navbar-brand img{
+        width: 115px;
+    }
+    .container h1{
+        font-size: 1.8rem;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .nav_link li a {
+        font-size: 0.45rem;
+        /* font-weight: bold; */
+    }
+    .navbar-brand img{
+        width: 105px;
+    }
+    .container h1{
+        font-size: 1.6rem;
+    }
+    
+}
+ @media screen and (max-width: 500px) {
+    .nav_link li a {
+        font-size: 0.37rem;
+        /* font-weight: bold; */
+    }
+    .navbar-brand img{
+        width: 95px;
+    }
+    .container h1{
+        font-size: 1.4rem;
+    }
+    
+}
+ @media screen and (max-width: 400px) {
+    .nav_link li a {
+        font-size: 0.23rem;
+    }
+    .navbar-brand img{
+        width: 90px;
+    }
+    .container h1{
+        font-size: 1.2rem;
+    }
+    
+
+    }
+
+
+
+/* remove the greyish color make it to white make the nav more responsive!*/
